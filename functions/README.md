@@ -50,8 +50,8 @@ as breeze.
 - `ret` -> goto address in register `ra`
 - `call offset` -> call far-away sub-routine
 
-
-- Functions called with `jal`, return with `jr ra`.
+### in conclusion
+- Functions are called with `jal`, return with `jr ra`.
 - The stack is your friend: Use	it to save anything you	need. but leave it the
 way you found it.
 - Instructions we know so far
@@ -65,4 +65,4 @@ Registers we know so far: All of them!
 - `sp` stack pointer, ra return address
 - `s0-s11` saved registers
 - `t0-t6` temporaries
-- `zero
+- `zero`
