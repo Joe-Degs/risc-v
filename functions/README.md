@@ -30,6 +30,7 @@ things that you might need later so they not be overridden.
 is usually the `a0 and a1` registers. Restore registers that need to be restored
 like the `ra and s0-s7` registers if you overridden them.
 - Return control to the caller
+
 __There are a fuckton of registers so use them and keep memory use minimal__
 
 ### instruction support for functions.
