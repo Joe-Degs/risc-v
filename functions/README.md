@@ -62,7 +62,7 @@ way you found it.
 - Unconditional	Branches (Jumps): `j, jal, jr`
 Registers we know so far: All of them!
 - `a0-a7` for function arguments, `a0-a1` for return values
-- `sp` stack pointer, ra return address
+- `sp` stack pointer, `ra` return address
 - `s0-s11` saved registers
 - `t0-t6` temporaries
 - `zero`
